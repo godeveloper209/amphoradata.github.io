@@ -67,6 +67,11 @@ h1, h2, h3, .nav-item {
   padding-bottom: 96px!important;
 }
 
+.py-4{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .mt-4{
   margin-top: 32px;
 }
@@ -103,6 +108,10 @@ h1, h2, h3, .nav-item {
 
 .mt-1{
   margin-top: 8px;
+}
+
+.mt-2{
+  margin-top: 16px;
 }
 
 .text--white{

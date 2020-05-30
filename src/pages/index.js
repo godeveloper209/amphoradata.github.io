@@ -82,7 +82,7 @@ function Home() {
       ></link>
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container container--fluid">
-          <div className="row">
+          <div className="row mt-2">
             <div className="col col--8">
               <div className="pl-4">
                 <h1 className="hero__title text--left">{siteConfig.title}</h1>
@@ -176,10 +176,10 @@ function Home() {
           </div>
         </div>
         <div className={classnames(styles.heroBanner)}>
-          <div className={classnames("p-8 py-12", styles.opacityContainer)}>
+          <div className={classnames("p-4", styles.opacityContainer)}>
             <div className="container container--fluid">
-              <div className="row px-4">
-                <div className="col col--6 px-12">
+              <div className={classnames("row py-4", styles.spaceBetween)}>
+                <div className="col col--4">
                   <h2 className="mb-8">
                     We Reduce The Number Of Integrations And APIs You Deal With
                     To One
@@ -191,11 +191,11 @@ function Home() {
                     Use Our Insfrastructure So You Don't Have To Build Your Own
                   </h2>
                 </div>
-                <div className="col col--6">
+                <div className="col col--4">
                   <h2 className="mb-4">
                     Watch The Video To Learn How Can Help You
                   </h2>
-                  <ReactPlayer url="https://youtu.be/rBt_743oT18" />
+                  <ReactPlayer url="https://youtu.be/rBt_743oT18" width="100%"/>
                 </div>
               </div>
             </div>
