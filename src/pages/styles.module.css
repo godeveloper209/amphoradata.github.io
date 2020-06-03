@@ -37,8 +37,16 @@
   border: 1px solid black;
 }
 
-.spaceBetween{
+.spaceBetween {
   justify-content: space-around;
+}
+
+.spaceEvenly {
+  justify-content: space-evenly;
+}
+
+.justifyContentCenter {
+  justify-content: center;
 }
 
 .opacityContainer {
@@ -48,7 +56,7 @@
 }
 
 .description {
-  font-family: "Helvetica Neue",Arial,sans-serif;;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 20px;
   line-height: 1.8em;
   font-weight: 400;
@@ -79,4 +87,18 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.disabledLink {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.rightAbsolute{
+  position: absolute;
+  right: 40px;
+}
+.whiteSpace{
+  white-space: normal;
 }

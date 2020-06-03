@@ -9,7 +9,6 @@ import styles from "./styles.module.css";
 import ReactPlayer from "react-player";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
-
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const features = [
