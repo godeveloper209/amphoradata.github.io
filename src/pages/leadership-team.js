@@ -5,7 +5,7 @@ import classnames from "classnames";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
-function pricing() {
+function LeadershipTeam() {
   return (
     <Layout title="Leadership Team">
       <div className="container container--fluid">
@@ -92,4 +92,4 @@ function pricing() {
   );
 }
 
-export default pricing;
+export default LeadershipTeam;

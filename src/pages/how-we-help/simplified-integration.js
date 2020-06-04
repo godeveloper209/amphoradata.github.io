@@ -5,9 +5,9 @@ import classnames from "classnames";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "../styles.module.css";
 
-function pricing() {
+function SimplifiedIntegration() {
   return (
-    <Layout title="Leadership Team">
+    <Layout title="Simplified Integration">
       <div className="container container--fluid">
         <div className={classnames("row mt-12", styles.justifyContentCenter)}>
           <div className={classnames(styles.rightAbsolute)} style={{width: "200px"}}>
@@ -175,4 +175,4 @@ function pricing() {
   );
 }
 
-export default pricing;
+export default SimplifiedIntegration;
